@@ -29,6 +29,6 @@ public interface VehicleInterface {
 	public void setSpeed(int speed);
 	public int getSpeed();
 	
-	public void setPrice(double price);
-	public double getPrice();
+	public void setPrice(long price);
+	public long getPrice();
 }

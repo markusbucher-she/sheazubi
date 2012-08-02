@@ -41,6 +41,13 @@ public class Start {
 		theLkw.setPs(400);
 		theLkw.setPrice(100000);
 		
+		theTank.setManufacturer("US army");
+		theTank.setCountOfAxes(4);
+		theTank.setColor("green");
+		theTank.setConsumptionBoth(90);
+		theTank.setPs(1200);
+		theTank.setPrice(120000000);
+		
 		//output
 		System.out.println("motorcycle:");
 		System.out.println("_________________");
@@ -92,6 +99,24 @@ public class Start {
 			System.out.println("consumption both: " + theLkw.getConsumptionBoth());
 		System.out.println("ps: " + theLkw.getPs());
 		System.out.println("price: " + theLkw.getPrice());
+		System.out.println();
+		System.out.println();
+		
+		System.out.println("Tank:");
+		System.out.println("_________________");
+		System.out.println("Manufacturer: " + theTank.getManufacturer());
+		System.out.println("count of Axes: " + theTank.getCountOfAxes());
+		System.out.println("color: " + theTank.getColor());
+		if (theTank.getConsumptionInTowns() != 0)
+			System.out.println("consumption in Towns: " + theTank.getConsumptionInTowns());
+		if(theTank.getConsumptionOutOfTowns() != 0)
+			System.out.println("consumption out of Towns: " + theTank.getConsumptionOutOfTowns());
+		if (theTank.getConsumptionBoth() != 0)
+			System.out.println("consumption both: " + theTank.getConsumptionBoth());
+		System.out.println("ps: " + theTank.getPs());
+		System.out.println("price: " + theTank.getPrice());
+		System.out.println();
+		System.out.println();
 	}
 	
 }

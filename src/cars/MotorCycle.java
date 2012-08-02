@@ -11,7 +11,7 @@ public class MotorCycle implements VehicleInterface{
 	private float consumptionBoth;
 	private int ps;
 	private int speed;
-	private double price;
+	private long price;
 	
 	public MotorCycle() {
 		
@@ -109,12 +109,12 @@ public class MotorCycle implements VehicleInterface{
 	}
 	
 	@Override
-	public void setPrice(double price) {
+	public void setPrice(long price) {
 		this.price = price;
 	}
 	
 	@Override
-	public double getPrice() {
+	public long getPrice() {
 		return this.price;
 	}
 }
