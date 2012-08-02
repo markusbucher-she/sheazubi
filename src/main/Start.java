@@ -1,6 +1,7 @@
 package main;
 
 import cars.Car;
+import cars.LKW;
 import cars.MotorCycle;
 
 public class Start {
@@ -28,6 +29,10 @@ public class Start {
 		theCar.setPs(130);
 		theCar.setSpeed(182);
 		theCar.setPrice(5000);
+		
+		LKW theLkw = new LKW();
+		theLkw.setConsumptionBoth(23);
+		theLkw.setColor("purple");
 		
 		//output
 		System.out.println("motorcycle:");
