@@ -33,6 +33,11 @@ public class Start {
 		LKW theLkw = new LKW();
 		theLkw.setConsumptionBoth(23);
 		theLkw.setColor("purple");
+		theLkw.setManufacturer("Volvo");
+		theLkw.setCountOfAxes(3);
+		theLkw.setGasolineType("Diesel");
+		theLkw.setPs(400);
+		theLkw.setPrice(100000);
 		
 		//output
 		System.out.println("motorcycle:");
@@ -69,6 +74,22 @@ public class Start {
 		System.out.println("ps: " + theCar.getPs());
 		System.out.println("speed: " + theCar.getSpeed());
 		System.out.println("price: " + theCar.getPrice());
+		System.out.println();
+		System.out.println();
+		
+		System.out.println("LKW:");
+		System.out.println("_________________");
+		System.out.println("Manufacturer: " + theLkw.getManufacturer());
+		System.out.println("gasoline type: " + theLkw.getGasolineType());
+		System.out.println("color: " + theLkw.getColor());
+		if (theLkw.getConsumptionInTowns() != 0)
+			System.out.println("consumption in Towns: " + theLkw.getConsumptionInTowns());
+		if(theLkw.getConsumptionOutOfTowns() != 0)
+			System.out.println("consumption out of Towns: " + theLkw.getConsumptionOutOfTowns());
+		if (theLkw.getConsumptionBoth() != 0)
+			System.out.println("consumption both: " + theLkw.getConsumptionBoth());
+		System.out.println("ps: " + theLkw.getPs());
+		System.out.println("price: " + theLkw.getPrice());
 	}
 	
 }
