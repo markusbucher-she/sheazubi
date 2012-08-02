@@ -13,6 +13,10 @@ public class MotorCycle implements VehicleInterface{
 	private int speed;
 	private double price;
 	
+	public MotorCycle() {
+		
+	}
+	
 	@Override
 	public void setManufacturer(String manufacturer) {
 		this.manufacturer = manufacturer;

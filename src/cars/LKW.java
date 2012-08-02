@@ -1,9 +1,12 @@
 package cars;
 
 public class LKW extends Car{
-
 	private String hangerType;
 	private int countofAxes;
+	
+	public LKW() {
+		
+	}
 	
 	public void setHangerType(String hangerType) {
 		this.hangerType = hangerType;

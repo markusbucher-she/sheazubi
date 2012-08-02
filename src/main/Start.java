@@ -2,6 +2,7 @@ package main;
 
 import cars.Car;
 import cars.LKW;
+import cars.Tank;
 import cars.MotorCycle;
 
 public class Start {
@@ -9,6 +10,8 @@ public class Start {
 	public static void main(String[] args) {
 		MotorCycle motorCycle = new MotorCycle();
 		Car theCar = new Car();
+		LKW theLkw = new LKW();
+		Tank theTank = new Tank();
 		
 		//input
 		motorCycle.setManufacturer("Honda");
@@ -30,7 +33,6 @@ public class Start {
 		theCar.setSpeed(182);
 		theCar.setPrice(5000);
 		
-		LKW theLkw = new LKW();
 		theLkw.setConsumptionBoth(23);
 		theLkw.setColor("purple");
 		theLkw.setManufacturer("Volvo");
